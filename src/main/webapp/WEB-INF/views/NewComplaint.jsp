@@ -12,7 +12,7 @@
 
     <form action="saveComplaint" method="post" class="bg-gray-800 p-6 rounded-lg shadow-lg space-y-6">
 
-        <!-- Title -->
+
         <div>
             <label for="title" class="block mb-2">Title</label>
             <input type="text" id="title" name="title" 
@@ -20,7 +20,7 @@
                    required>
         </div>
 
-        <!-- Description -->
+
         <div>
             <label for="description" class="block mb-2">Description</label>
             <textarea id="description" name="description" rows="4"
@@ -28,7 +28,7 @@
                       required></textarea>
         </div>
 
-        <!-- Assign To (Admin Dropdown) -->
+
         <div>
             <label for="assignedTo" class="block mb-2">Assign To</label>
             <select name="assignedTo" id="assignedTo" 
@@ -42,7 +42,6 @@
             </select>
         </div>
 
-        <!-- Submit -->
         <div>
             <button type="submit" 
                     class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold">
